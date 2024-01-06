@@ -1,0 +1,41 @@
+/* common share styles */
+body{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Maps', system-ui;
+}
+.text-primary{
+    color: gold;
+}
+.btn-Primay{
+    background:#FD6E0A;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 157, 255);
+}
